@@ -9,7 +9,7 @@ const Header = () => (
         <p>Home</p>
         <p>About Me</p>
         <p>Portfolio</p>
-        <p>Contact Us</p>
+        <p>Contact Me</p>
       </nav>
     </header>
   </>
