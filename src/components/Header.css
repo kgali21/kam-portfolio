@@ -1,0 +1,23 @@
+*{
+  margin: 0;
+}
+
+.Header {
+  background-color: #36454f;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: auto;
+}
+
+.Name {
+  border: 1px red solid;
+  height: 40px;
+}
+
+.Nav{
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px red solid;
+  
+}

@@ -1,11 +1,12 @@
 import React from 'react';
+import styles from './Header.css';
 
 const Header = () => (
   <>
-    <header>
-      <h1>Kamran Ali</h1>
+    <header className={styles.Header}>
+      <h1 className={styles.Name}>Kamran Ali</h1>
       <h2>Full-Stack Software Developer</h2>
-      <nav>
+      <nav className={styles.Nav}>
         <p>Home</p>
         <p>About Me</p>
         <p>Portfolio</p>
