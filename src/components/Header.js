@@ -5,7 +5,7 @@ const Header = () => (
   <>
     <header className={styles.Header}>
       <h1 className={styles.Name}>Kamran Ali</h1>
-      <h2>Full-Stack Software Developer</h2>
+      <h2 className={styles.Role}>Full-Stack Software Developer</h2>
       <nav className={styles.Nav}>
         <p>Home</p>
         <p>About Me</p>
