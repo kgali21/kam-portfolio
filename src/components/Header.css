@@ -4,24 +4,17 @@
 }
 
 .Header {
-  background-color: #36454f;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #98ff98;
   width: 100%;
   height: 100px;
-}
-
-.Name {
-  border: 1px red solid;
-  height: 40px;
-  max-width: 15vw;
-}
-
-.Nav{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  margin-top: 0px;
-}
-
-.Role{
-  color: red;
+  color: #36454f;
+  
+  .Name {
+    height: 40px;
+    max-width: 15vw;
+  }
 }
