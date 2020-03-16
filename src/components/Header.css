@@ -1,5 +1,6 @@
 *{
   margin: 0;
+  box-sizing: border-box;
 }
 
 .Header {
@@ -22,5 +23,5 @@
 }
 
 .Role{
-
+  color: red;
 }
