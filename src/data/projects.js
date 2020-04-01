@@ -8,17 +8,17 @@ const projects = [
     },
     {
         project: 'The Sanchez Personality Experiment',
-        img: 'A complete reimagining of a Meyer’s Briggs personality survey, but using a Rick and Morty api to add pop culture flair. It also combines MBTI personality traits for 16 different characters, and uses weights to assign those characters. We used PostgresQl to seed our database with characters, quiz questions and answers, and MBTI personality types already connected to certain characters. Bcrypt was also used on the backend to allow us to assign users to their personal quiz performances. Vanilla javascript and css animations were used for the front end, and Chart.js was used to render the graph that shows all time stats of each character.',
-        description: '',
-        frontendTech: 'Vanilla Javascript, Chart.js, and CSS Animations',
+        img: '',
+        description: 'A complete reimagining of a Meyer’s Briggs personality survey, but using a Rick and Morty api to add pop culture flair. It also combines MBTI personality traits for 16 different characters, and uses weights to assign those characters. We used PostgresQl to seed our database with characters, quiz questions and answers, and MBTI personality types already connected to certain characters. Bcrypt was also used on the backend to allow us to assign users to their personal quiz performances. Vanilla javascript and css animations were used for the front end, and Chart.js was used to render the graph that shows all time stats of each character.',
+        frontendTech: 'Vanilla Javascript, Chart.js, HTML, and CSS Animations',
         backendTech: 'brcypt, express, and jsonwebtoken'
     },
     {
-        project: 'Bad Ass Maze Game',
+        project: 'Jabba Dice',
         img: '',
-        description: '',
-        frontendTech: 'React and P5.js',
-        backendTech: 'Socket.io and Maze API'
+        description: 'This is a game that is based on the dice game CeeLo, which a user needs to win a dice roll based on points. It has 3 bosses that you must defeat using some fun pop culture references. Using Vanilla Javascript, we were able to create a SPA that allowed the user to enter a name which used local storage, which was also used to be able to go to the next boss or back to the start based on the users choice.',
+        frontendTech: 'Vanilla Javascript, CSS, HTML',
+        backendTech: 'Vanilla Javascript'
     },
 ]
 
