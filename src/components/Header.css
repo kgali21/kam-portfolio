@@ -8,13 +8,17 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: #98ff98;
+  background-color: #66dbff7c;
   width: 100%;
-  height: 100px;
+  height: 16vh;
   color: #36454f;
   
-  .Name {
-    height: 40px;
-    max-width: 15vw;
-  }
 }
+
+.Name {
+  height: 40px;
+  width: 11em;
+  max-width: 20vw;
+}
+
+
