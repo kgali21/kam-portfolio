@@ -1,10 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const Project = ({ project, img, description, frontendTech, backendTech }) => (
+const Project = ({ project, image, description, frontendTech, backendTech }) => (
     <div>
         <h1>{project}</h1>
-        <image>{img}</image>
+        <img src={image} alt={description}></img>
         <p>{description}</p>
         <p>{frontendTech}</p>
         <p>{backendTech}</p>
