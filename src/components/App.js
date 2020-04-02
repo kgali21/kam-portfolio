@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from './Header';
 import ProjectDeck from './projects/ProjectDeck';
+import AboutMe from './aboutMe/AboutMe';
 
 import projectData from '../data/projectsData';
 
@@ -10,6 +11,7 @@ export default function App() {
   return (
     <>
       <Header />
+      <AboutMe />
       <ProjectDeck project={projectData} className={styles.ProjectDeck}/>
     </>
   );
