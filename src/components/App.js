@@ -1,6 +1,14 @@
 import React from 'react';
+import Header from './Header';
+import SideBarNav from './SideBarNav';
+// import Footer from './Footer';
 
 export default function App() {
-  return <h1>Hello World</h1>;
+  return (
+    <>
+      <Header />
+      <SideBarNav />
+      {/* <Footer /> */}
+    </>
+  );
 }
-  

@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.Nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 90vh;
+  width: 8.5vw;
+  background-color: #36454f;
+  color: #ffffff;
+  font-size: x-large;
+}
+
+.Nav :hover {
+  color: #66dbffee;
+  cursor: pointer;
+}
+
