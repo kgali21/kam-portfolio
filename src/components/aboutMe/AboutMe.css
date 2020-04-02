@@ -1,0 +1,17 @@
+.AboutMeContents {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.BioContents {
+    width: 15vw;
+    margin-right: 5em;
+    margin-left: -10em;
+}
+.ContactMeContents {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-right: 5em;
+    margin-left: -10em;
+}
