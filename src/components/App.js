@@ -11,8 +11,8 @@ export default function App() {
   return (
     <>
       <Header />
-      <AboutMe />
-      <ProjectDeck project={projectData} className={styles.ProjectDeck}/>
+      <AboutMe/>
+      <ProjectDeck project={projectData}/>
     </>
   );
 }

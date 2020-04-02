@@ -4,7 +4,9 @@ import styles from './AboutMe.css';
 
 const AboutMe = () => (
     <>
+    <div className={styles.AboutMe}>
         <h1>About Me: </h1>
+    </div>    
         <div className={styles.AboutMeContents}>
             <h2>Contact me: </h2>
                 <div className={styles.ContactMeContents}>
