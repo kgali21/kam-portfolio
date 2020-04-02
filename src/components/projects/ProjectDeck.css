@@ -1,0 +1,9 @@
+.ProjectElements {
+    display: flex;
+    border: solid 1px red;
+    list-style: none;
+}
+
+.Ulist {
+    overflow: scroll;
+}

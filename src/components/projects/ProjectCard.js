@@ -1,13 +1,15 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
+import styles from './ProjectCard.css';
+
 const Project = ({ project, image, description, frontendTech, backendTech }) => (
-    <div>
+    <div className={styles.ListItem}>
         <h1>{project}</h1>
-        <img src={image} alt={description}></img>
+        <img src={image}></img>
         <p>{description}</p>
-        <p>{frontendTech}</p>
-        <p>{backendTech}</p>
+        <p>Front-End Tech: {frontendTech}</p>
+        <p>Back-End Tech: {backendTech}</p>
     </div>
 )
 

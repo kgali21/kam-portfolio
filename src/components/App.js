@@ -5,12 +5,16 @@ import ProjectDeck from './projects/ProjectDeck';
 
 import projectData from '../data/projectsData';
 
+import styles from './App.css';
+
 export default function App() {
   return (
     <>
       <Header />
       <SideBarNav />
-      <ProjectDeck project={projectData} />
+      <div className={styles.ProjectDeck}>
+        <ProjectDeck project={projectData} />
+      </div>
     </>
   );
 }
