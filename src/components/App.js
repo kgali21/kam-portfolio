@@ -12,9 +12,6 @@ export default function App() {
     <>
       <Header />
       <SideBarNav />
-      <div className={styles.ProjectDeck}>
-        <ProjectDeck project={projectData} />
-      </div>
     </>
   );
 }

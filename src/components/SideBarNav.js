@@ -1,4 +1,7 @@
 import React from 'react';
+import ProjectDeck from './projects/ProjectDeck';
+import projectData from '../data/projectsData'; 
+
 import styles from './SideBarNav.css';
 
 const SideBarNav = () => (
@@ -10,6 +13,9 @@ const SideBarNav = () => (
         <p>Portfolio</p>
         <p>Contact Me</p>
       </nav>
+    </div>
+    <div className={styles.ProjectDeck}>
+        <ProjectDeck project={projectData} />
     </div>
   </>
 );

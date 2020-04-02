@@ -20,3 +20,21 @@
   cursor: pointer;
 }
 
+.ProjectElements {
+  display: flex;
+  align-items: center;
+  border: solid 1px red;
+  list-style: none;
+  width: 70%;
+  max-height: 10%;
+  overflow-x: auto;
+  margin-bottom: 1000px;
+  
+}
+
+.Ulist {
+  width: 50%;
+  height: 50%;
+  margin-left: 500px;
+  margin-bottom: 50px;
+}
