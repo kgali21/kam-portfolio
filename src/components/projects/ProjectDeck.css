@@ -2,13 +2,13 @@
     display: flex;
     align-items: center;
     list-style: none;
-    width: 70%;
+    width: 35%;
     max-height: 10%;
     overflow-x: auto;
-    margin: 6em 0 0 4em;
+    margin: 2em 0 0 4em;
 }
 
-.Ulist {
-    width: 50%;
-    height: 50%;
+.Projects {
+    margin-top: 6em;
+    margin-left: 2em;
 }
