@@ -7,3 +7,57 @@
     justify-content: space-evenly;
     margin: 5em 0 0 0;
 }
+
+.Lang {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 7em;
+    margin: 1em 0 0 0;
+}
+
+.FrontEnd {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 5em;
+    margin: 1em 0 0 0;
+}
+
+.BackEnd {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 7em;
+    margin: 1em 0 0 0;
+}
+
+.Tools {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 9em;
+    margin: 1em 0 0 0;
+}
+
+.Database {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 5em;
+    margin: 1em 0 0 0;
+}
+
+.Testing {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 5em;
+    margin: 1em 0 0 0;
+}
