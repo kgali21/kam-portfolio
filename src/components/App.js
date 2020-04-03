@@ -2,6 +2,7 @@ import React from 'react';
 import Header from './Header';
 import ProjectDeck from './projects/ProjectDeck';
 import AboutMe from './aboutMe/AboutMe';
+import TechStack from './techStack/TechStackCard';
 
 import projectData from '../data/projectsData';
 
@@ -13,6 +14,7 @@ export default function App() {
       <Header />
       <AboutMe/>
       <ProjectDeck project={projectData}/>
+      <TechStack />
     </>
   );
 }

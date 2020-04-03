@@ -1,9 +1,11 @@
 import React from 'react';
 
+import styles from './TechStack.css';
 
 const TechStackCard = () => (
     <>
-        <div>
+    <h1 className={styles.Title}>Tech Stack: </h1>
+        <div className={styles.TechStack}>
             <div>
                 <p>LANGUAGES</p>
                 <p>Javascript</p>
