@@ -15,7 +15,7 @@ const TechStackCard = () => (
                     </div>
             </div>
             <div>
-                <p>FRONT-END</p>
+                <p className={styles.Front}>FRONT-END</p>
                     <div className={styles.FrontEnd}>
                         <p>React and React Hooks</p>
                         <p>Redux</p>
