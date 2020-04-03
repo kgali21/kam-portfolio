@@ -3,10 +3,10 @@
     align-items: center;
     list-style: none;
     width: 75em;
-    max-height: 10%;
+    height: 35em;
     overflow-x: auto;
     margin: 2em 0 0 4em;
-    border: solid red 1px;
+    background-color: #36454f;
 }
 
 .Projects {

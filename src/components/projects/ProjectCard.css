@@ -1,7 +1,14 @@
 .ListItem {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     margin-right: 10em;
-    width: 50vw;
+    width: 45vw;
     height: 50%;
+    max-height: 50%;
+    background-color: #66dbffee;
+    padding: 2em;
 }
 
 .ListItem img {
