@@ -2,6 +2,8 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import ProjectCard from './ProjectCard';
 
+import styles from './ProjectDeck.css';
+
 const ProjectDeck = ({ project }) => {
     const projectElements = project.map(projectItem => (
         <li key={`${projectItem.project}`}>
@@ -11,8 +13,8 @@ const ProjectDeck = ({ project }) => {
 
     return (
         <>
-        <h1>Projects: </h1>
-        <ul>{projectElements}</ul>
+        <h1 className={styles.Projects}>Projects: </h1>
+        <ul className={styles.ProjectElements}>{projectElements}</ul>
         </>
     );
 }

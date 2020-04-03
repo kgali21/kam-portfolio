@@ -1,0 +1,14 @@
+.ProjectElements {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    width: 35%;
+    max-height: 10%;
+    overflow-x: auto;
+    margin: 2em 0 0 4em;
+}
+
+.Projects {
+    margin-top: 6em;
+    margin-left: 2em;
+}

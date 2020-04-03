@@ -1,14 +1,18 @@
 import React from 'react';
 import Header from './Header';
-import SideBarNav from './SideBarNav';
-// import Footer from './Footer';
+import ProjectDeck from './projects/ProjectDeck';
+import AboutMe from './aboutMe/AboutMe';
+
+import projectData from '../data/projectsData';
+
+import styles from './App.css';
 
 export default function App() {
   return (
     <>
       <Header />
-      <SideBarNav />
-      {/* <Footer /> */}
+      <AboutMe/>
+      <ProjectDeck project={projectData}/>
     </>
   );
 }
