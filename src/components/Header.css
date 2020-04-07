@@ -3,7 +3,7 @@
   box-sizing: border-box;
 }
 
-.Header {
+.HeaderComponent {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -14,8 +14,11 @@
   color: #66dbffee;
 }
 
-.Name {
-  height: 40px;
-  width: 11em;
-  max-width: 20vw;
+.Headers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 10em;
+  width: 20em;
 }
