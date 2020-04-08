@@ -12,6 +12,8 @@
   height: 8.5vw;
   color: black;
   font-size: x-large;
+  margin: 2em 0 0 0;
+  user-select: none;
 }
 
 .Nav p:hover {
