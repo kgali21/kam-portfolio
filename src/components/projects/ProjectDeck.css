@@ -10,5 +10,10 @@
 }
 
 .Projects {
-    margin: 6em 0 0 2em;
+    margin: 4em 0 1.5em 2em;
+}
+
+.ProjectContainer {
+    display: flex;
+    justify-content: center;
 }

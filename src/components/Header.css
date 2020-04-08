@@ -1,21 +1,32 @@
-*{
-  margin: 0;
-  box-sizing: border-box;
-}
-
-.Header {
+.HeaderComponent {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: #36454f;
   width: 100%;
   height: 16vh;
   color: #66dbffee;
+  margin: 7em 0 12em 0;
 }
 
-.Name {
-  height: 40px;
-  width: 11em;
-  max-width: 20vw;
+.Headers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 10em;
+  width: 20em;
+  margin: 2em 0 0 0;
+
+}
+
+.Name{
+  font-size: 4em;
+  width: 5.5em;
+}
+
+.Role{
+  font-size: 4em;
+  width: 14em;
+  margin: 0em 0 1em 0;
 }

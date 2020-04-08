@@ -13,7 +13,7 @@ export default function App() {
     <>
       <Header />
       <AboutMe/>
-      <ProjectDeck project={projectData}/>
+      <ProjectDeck project={projectData} className={styles.Projects}/>
       <TechStack />
     </>
   );

@@ -14,7 +14,9 @@ const ProjectDeck = ({ project }) => {
     return (
         <>
         <h1 className={styles.Projects}>Projects: </h1>
+        <div className={styles.ProjectContainer}>
         <ul className={styles.ProjectElements}>{projectElements}</ul>
+        </div>
         </>
     );
 }
