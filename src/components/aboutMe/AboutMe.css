@@ -20,6 +20,8 @@
     line-height: 3.5vh;
     font-size: 1.3em;
     width: 25em;
+    background-color: #66dbffee;
+    padding: 1em;
 }
 
 .ContactMeContents {
@@ -27,4 +29,8 @@
     flex-direction: column;
     justify-content: space-between;
     margin: 1em 5em 0em -10em;
+    background-color: #66dbffee;
+    width: auto;
+    padding: 1em;
+
 }

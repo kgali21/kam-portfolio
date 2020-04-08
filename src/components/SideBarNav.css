@@ -14,7 +14,8 @@
   font-size: x-large;
 }
 
-.Nav :hover {
+.Nav p:hover {
   color: #66dbffee;
   cursor: pointer;
 }
+

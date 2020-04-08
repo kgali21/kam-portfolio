@@ -3,9 +3,12 @@ import styles from './SideBarNav.css';
 
 const SideBarNav = () => (
       <nav className={styles.Nav}>
-        <p>Home</p>
         <p>About Me</p>
-        <p>Portfolio</p>
+        <div>|</div>
+        <p>Projects</p>
+        <div>|</div>
+        <p>Tech Stack</p>
+        <div>|</div>
         <p>Contact Me</p>
       </nav>
 );
