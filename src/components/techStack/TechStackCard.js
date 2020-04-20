@@ -4,7 +4,7 @@ import styles from './TechStack.css';
 
 const TechStackCard = () => (
     <>
-    <h1 className={styles.Title}>Tech Stack: </h1>
+    <h1 className={styles.Title}>TECH STACK </h1>
         <div className={styles.TechStack}>
             <div>
                 <p>LANGUAGES</p>
