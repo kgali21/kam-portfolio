@@ -11,6 +11,8 @@
 
 .Projects {
     margin: 4em 0 1.5em 2em;
+    color: #66dbffee;
+    text-shadow: 0px 0px 20px;
 }
 
 .ProjectContainer {

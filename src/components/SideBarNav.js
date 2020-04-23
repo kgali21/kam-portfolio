@@ -4,13 +4,13 @@ import styles from './SideBarNav.css';
 const SideBarNav = () => (
       <nav className={styles.Nav}>
         <div>|</div>
-        <p>About Me</p>
+        <p>ABOUT ME</p>
         <div>|</div>
-        <p>Projects</p>
+        <p>PROJECTS</p>
         <div>|</div>
-        <p>Tech Stack</p>
+        <p>TECH STACK</p>
         <div>|</div>
-        <p>Contact Me</p>
+        <p>CONTACT ME</p>
         <div>|</div>
       </nav>
 );

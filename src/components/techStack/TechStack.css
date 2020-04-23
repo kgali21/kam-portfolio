@@ -1,5 +1,7 @@
 .Title {
-    margin: 3.5em 0 0 2em;   
+    margin: 3.5em 0 0 2em; 
+    color: #66dbffee;
+    text-shadow: 0px 0px 20px;  
 }
 
 .TechStack {
@@ -18,6 +20,7 @@
     width: 12em;
     margin: 1em 0 0 0;
     background-color: #66dbffee;
+    box-shadow: .5em .5em 1em, .75em .75em 1.5em, -.05em -.05em .05em;
 }
 
 .FrontEnd {
@@ -29,6 +32,7 @@
     width: 12em;
     margin: 1em 0 0 0;
     background-color: #66dbffee;
+    box-shadow: .5em .5em 1em, .75em .75em 1.5em, -.05em -.05em .05em;
 }
 
 .BackEnd {
@@ -40,6 +44,7 @@
     width: 12em;
     margin: 1em 0 0 0;
     background-color: #66dbffee;
+    box-shadow: .5em .5em 1em, .75em .75em 1.5em, -.05em -.05em .05em;
 }
 
 .Tools {
@@ -51,6 +56,7 @@
     width: 12em;
     margin: 1em 0 0 0;
     background-color: #66dbffee;
+    box-shadow: .5em .5em 1em, .75em .75em 1.5em, -.05em -.05em .05em;
 }
 
 .Database {
@@ -62,6 +68,7 @@
     width: 12em;
     margin: 1em 0 0 0;
     background-color: #66dbffee;
+    box-shadow: .5em .5em 1em, .75em .75em 1.5em, -.05em -.05em .05em;
 }
 
 .Testing {
@@ -73,4 +80,5 @@
     width: 12em;
     margin: 1em 0 0 0;
     background-color: #66dbffee;
+    box-shadow: .5em .5em 1em, .75em .75em 1.5em, -.05em -.05em .05em;
 }

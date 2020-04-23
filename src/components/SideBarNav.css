@@ -16,8 +16,12 @@
   user-select: none;
 }
 
-.Nav p:hover {
-  color: #66dbffee;
+.Nav p {
+  color: #000000;
   cursor: pointer;
 }
 
+.Nav p:hover {
+  color: #66dbffee;
+  text-shadow: 0px 0px 20px;
+}

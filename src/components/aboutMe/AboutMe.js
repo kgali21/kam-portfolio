@@ -5,14 +5,14 @@ import styles from './AboutMe.css';
 const AboutMe = () => (
     <>
     <div className={styles.AboutMe}>
-        <h1>About Me: </h1>
+        <h1>ABOUT ME </h1>
     </div>    
         <div className={styles.AboutMeContents}>
-            <h2>Bio: </h2>
+            <h2>BIO </h2>
             <div className={styles.BioContents}>
                     <p>Full-Stack Software Developer that serves code on a silver platter. As an experienced self-actualizer, expert ice breaker, and perceptive problem-solver; my goal is to bring readability, comfortability, and laughs to anyone in my community.</p>
                 </div>
-            <h3>Contact Me: </h3>
+            <h3>CONTACT ME </h3>
             <div className={styles.ContactMeContents}>
                     <p>Phone: (503)-789-0553</p>
                     <p>Email: Kgali21@gmail.com</p>
