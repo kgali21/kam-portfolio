@@ -28,18 +28,7 @@ const AboutMe = () => (
                     <li>Kammerhead</li>
                     <li>M.C. Kammer</li>
                     <li>Childish Kambino</li>
-                </ul>
-            <h5> THINGS THAT I LIKE</h5>
-            <ul className={styles.Nicknames}>
-                <li>Code</li>
-                <li>Video and Board games</li>
-                <li></li>
-                <li>DISLIKES:</li>
-                <li>KamBam</li>
-                <li>Kammerhead</li>
-                <li>M.C. Kammer</li>
-                <li>Childish Kambino</li>
-            </ul>    
+                </ul>  
         </div>        
     </>
 )
