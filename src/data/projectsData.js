@@ -11,7 +11,7 @@ const projects = [
     {
         project: 'The Sanchez Personality Experiment',
         image: '../../public/sanchez.png',
-        description: 'A complete reimagining of a Meyer’s Briggs personality survey, but using a Rick and Morty api to add pop culture flair. It also combines MBTI personality traits for 16 different characters, and uses weights to assign those characters. We used PostgresQl to seed our database with characters, quiz questions and answers, and MBTI personality types already connected to certain characters. Bcrypt was also used on the backend to allow us to assign users to their personal quiz performances. Vanilla javascript and css animations were used for the front end, and Chart.js was used to render the graph that shows all time stats of each character.',
+        description: 'A complete reimagining of a Meyer’s Briggs personality survey, but using a Rick and Morty api to add pop culture flair. It also combines MBTI personality traits for 16 different characters, and uses weights to assign those characters. We used PostgresQL to seed our database with characters, quiz questions and answers, and MBTI personality types already connected to certain characters. Bcrypt was also used on the backend to allow us to assign users to their personal quiz performances. Vanilla javascript and css animations were used for the front end.',
         frontendTech: 'Vanilla Javascript, Chart.js, HTML, and CSS Animations',
         backendTech: 'brcypt, express, and jsonwebtoken',
         site: 'https://c-137-mbti-quiz.herokuapp.com/auth.html?redirect=%2F',

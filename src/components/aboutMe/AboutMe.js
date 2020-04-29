@@ -20,15 +20,13 @@ const AboutMe = () => (
                     <p>Beaverton, OR</p>
                 </div>
             <h4> NOTABLE NICKNAMES</h4>
-                <ul className={styles.Nicknames}>
-                    <li>Kam</li>
-                    <li>Kammy</li>
-                    <li>KamKam</li>
-                    <li>KamBam</li>
-                    <li>Kammerhead</li>
-                    <li>M.C. Kammer</li>
-                    <li>Childish Kambino</li>
-                </ul>  
+                <div className={styles.Nicknames}>
+                    <p>Kam</p>
+                    <p>Kammy</p>
+                    <p>KamKam</p>
+                    <p>KamBam</p>
+                    <p>Childish Kambino</p>
+                </div>  
         </div>        
     </>
 )
