@@ -5,10 +5,10 @@
     align-items: center;
     margin-right: 10em;
     width: 45vw;
-    height: 31em;
+    height: 33em;
     max-height: 50%;
     background-color: #66dbffee;
-    padding: 2em;
+    padding: 5em;
     box-shadow: .5em .5em 1em, .75em .75em 1.5em, -.05em -.05em .05em;
 }
 
@@ -22,3 +22,10 @@
     margin: 0 0 1em 0;
     color: #000000;
 }
+
+.Links {
+    display: flex;
+    justify-content: space-evenly;
+    width: 50em;
+}
+
