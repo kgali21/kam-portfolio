@@ -8,7 +8,7 @@ const Header = () => (
         <h1 className={styles.Name}>Kamran Ali</h1>
         <h2 className={styles.Role}>Full-Stack Software Developer</h2>
       </div>
-    <SideBarNav />
+      <SideBarNav />
     </header>
   </>
 );

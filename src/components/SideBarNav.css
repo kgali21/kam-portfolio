@@ -25,3 +25,8 @@
   color: #66dbffee;
   text-shadow: 0px 0px 20px;
 }
+
+img {
+  height: 30vh;
+  width: auto;
+}
